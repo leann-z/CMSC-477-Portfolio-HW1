@@ -12,18 +12,35 @@
 
 <body>
     <div class="title">
-    <h1> About Me. </h1>
+      <h1> <b> About Me. </b> </h1>
     </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+      <a class="navbar-brand" href="#">Ready to learn more about me? </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="/about_me.html">About Me</a>
+          <a class="nav-item nav-link" href="/contact.html">Contact Me</a>
+        </div>
+      </div>
+    </nav>
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-sm">
+           
             <p>Hi, I'm Leann! I'm a junior computer science student at UMBC. A fun fact about me is that I'm left handed!
                 Some more important things to know about me are:
             </p>
+            <ul>
             <li> I want to be a software developer in the future. </li>
             <li> I'm also interested in the AI field right now. </li>
             <li> I'm planning on getting my masters right after I get my bachelors degree. </li>
             <li> I also want to travel the world eventually (this is a little off-topic). </li>
+            </ul>
           </div>
           <div class="col-sm">
             <img src="/me.jpg" class="img-fluid" alt="Responsive image">
@@ -32,10 +49,6 @@
       </div>
     
 
-    <div class="back">
-        <a href="/index.html">
-        <button type="button" class="btn btn-outline-light">←</button>
-        </a>
-      </div>
+    
 </body>
 </html>
